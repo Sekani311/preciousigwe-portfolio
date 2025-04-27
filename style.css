@@ -1,86 +1,74 @@
-/* Reset some defaults */
 body {
-  margin: 0;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background-color: #f9f9f9;
-  color: #333;
+  background-color: #121212;
+  margin: 0;
+  padding: 0;
+  color: #E0E0E0;
 }
 
-header {
-  text-align: center;
-  padding: 50px 20px 20px;
-  background-color: #0077b5;
-  color: white;
-}
-
-header h1 {
-  margin-bottom: 10px;
-}
-
-header p {
-  font-size: 18px;
-  margin-top: 0;
-}
-
-.social-links {
-  margin-top: 20px;
-}
-
-.social-links a {
-  text-decoration: none;
-  color: white;
-  margin: 0 10px;
-  font-size: 20px;
-  display: inline-block;
-}
-
-.social-links i {
-  margin-right: 8px;
-}
-
-/* Hover effect on social icons */
-.social-links a:hover i {
-  color: #ffcc00;
-}
-
-main {
-  padding: 30px 20px;
+.container {
   max-width: 900px;
-  margin: 0 auto;
+  margin: 50px auto;
+  padding: 20px;
+  background: #1E1E1E;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.5);
+  border-radius: 12px;
+  text-align: center;
 }
 
-section {
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+  color: #BB86FC;
+}
+
+.tagline {
+  font-size: 1.2rem;
+  color: #B0B0B0;
+  margin-bottom: 30px;
+}
+
+.about p {
+  font-size: 1.1rem;
   margin-bottom: 40px;
 }
 
-section h2 {
-  color: #0077b5;
-  border-bottom: 2px solid #0077b5;
-  padding-bottom: 5px;
+.projects h2,
+.links h2 {
+  margin-top: 30px;
+  font-size: 1.8rem;
+  color: #03DAC6;
 }
 
 .projects ul {
-  list-style-type: none;
+  list-style: none;
   padding: 0;
 }
 
 .projects li {
-  margin-bottom: 20px;
+  margin: 15px 0;
+  font-size: 1.1rem;
 }
 
-.projects a {
+.projects i {
+  color: #03DAC6;
+  margin-right: 8px;
+}
+
+.links a {
+  text-decoration: none;
+  color: #BB86FC;
+  font-size: 1.1rem;
+  margin: 0 10px;
+}
+
+.links a:hover {
   text-decoration: underline;
-  color: #0077b5;
-}
-
-.projects a:hover {
-  color: #005582;
+  color: #03DAC6;
 }
 
 footer {
-  text-align: center;
-  padding: 20px;
-  background-color: #0077b5;
-  color: white;
-  margin-top: 40px;
+  margin-top: 50px;
+  font-size: 0.9rem;
+  color: #666;
 }
